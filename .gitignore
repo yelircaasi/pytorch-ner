@@ -21,3 +21,6 @@ dist
 
 models/*
 !models/README.md
+
+pred*.txt
+build

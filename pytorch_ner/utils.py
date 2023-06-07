@@ -7,6 +7,10 @@ import numpy as np
 import torch
 
 
+def kv_flip(_dict: dict) -> dict:
+    return {v: k for k, v in _dict.items()}
+
+
 def set_global_seed(seed: int):
     """
     Set global seed for reproducibility.
